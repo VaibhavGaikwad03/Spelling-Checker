@@ -133,7 +133,7 @@ void spelling_checker(string strSentence)
         }
 
         if (match_count  == 0 && spellerrorinfo[i] == 1)
-            cout << "It seems you have entered the word " << i + 1 << " with incorrect spelling.\n";
+            cout << "\nIt seems you have entered the word " << i + 1 << " with incorrect spelling.\n";
     }
 }
 
